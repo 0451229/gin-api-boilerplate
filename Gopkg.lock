@@ -20,6 +20,12 @@
   version = "v1.2"
 
 [[projects]]
+  name = "github.com/go-redis/redis"
+  packages = [".","internal","internal/consistenthash","internal/hashtag","internal/pool","internal/proto"]
+  revision = "8e6b51ec3a92ec095dcbd2439c7a3eec6b6cb586"
+  version = "v6.7.1"
+
+[[projects]]
   branch = "master"
   name = "github.com/golang/protobuf"
   packages = ["proto"]
@@ -30,6 +36,12 @@
   name = "github.com/hashicorp/hcl"
   packages = [".","hcl/ast","hcl/parser","hcl/scanner","hcl/strconv","hcl/token","json/parser","json/scanner","json/token"]
   revision = "68e816d1c783414e79bc65b3994d9ab6b0a722ab"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/lib/pq"
+  packages = [".","oid"]
+  revision = "b77235e3890a962fe8a6f8c4c7198679ca7814e7"
 
 [[projects]]
   name = "github.com/magiconair/properties"
@@ -130,6 +142,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "ab69d1207220056db8b5fead3c7918d99af8ba0fb5f9d5aea1aef4974a91464d"
+  inputs-digest = "37be997f3bfa557228596b05038315d3cb4b722bda799bc5587845f9f39ef65e"
   solver-name = "gps-cdcl"
   solver-version = 1
